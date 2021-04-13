@@ -1,6 +1,8 @@
+
+
 Pod::Spec.new do |spec|  
     spec.name         = "UnityMediationAdColonyAdapter"
-    spec.version      = "0.0.13"
+    spec.version      = '0.0.13'
     spec.summary      = "UnityMediationAdColonyAdapter for UnityMediationSdk"
     spec.description  = "UnityMediationAdColonyAdapter Framework for loading and showing ads in the UnityMediationSdk."
     spec.homepage     = "https://github.com/Unity-Technologies/mz-mediation-sdk-ios"
@@ -15,7 +17,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     }
     spec.author             = { "Shawn Hampton" => "shawnh@unity3d.com" }
     spec.platform     = :ios, "9.0"
-    spec.source               = { :http => "https://unity3ddist.jfrog.io/artifactory/mz-open-mediation-sdk/UnityMediationAdColonyAdapter/#{spec.version}/UnityMediationAdColonyAdapter.xcframework.zip" }
+    spec.source               = { :http => 'https://unity3ddist.jfrog.io/artifactory/unity-mediation-generic-prod-local/UnityMediationAdColonyAdapter/0.0.13/UnityMediationAdColonyAdapter.xcframework.zip' }
     spec.vendored_frameworks  = "UnityMediationAdColonyAdapter.xcframework"
     spec.dependency "UnityMediationSdk", "~> 0.0.13"
     spec.dependency "AdColony", "~> 4.5.0"
