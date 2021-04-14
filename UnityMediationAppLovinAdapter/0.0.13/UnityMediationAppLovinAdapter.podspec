@@ -1,6 +1,6 @@
-Pod::Spec.new do |spec|  
+  Pod::Spec.new do |spec|  
     spec.name         = "UnityMediationAppLovinAdapter"
-    spec.version      = "0.0.13"
+    spec.version      = '0.0.13'
     spec.summary      = "UnityMediationAppLovinAdapter for UnityMediationSdk"
     spec.description  = "UnityMediationAppLovinAdapter Framework for loading and showing ads in the UnityMediationSdk."
     spec.homepage     = "https://github.com/Unity-Technologies/mz-mediation-sdk-ios"
@@ -15,7 +15,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     }
     spec.author             = { "Shawn Hampton" => "shawnh@unity3d.com" }
     spec.platform     = :ios, "9.0"
-    spec.source               = { :http => "https://unity3ddist.jfrog.io/artifactory/mz-open-mediation-sdk/UnityMediationAppLovinAdapter/#{spec.version}/UnityMediationAppLovinAdapter.xcframework.zip" }
+    spec.source               = { :http => 'https://unity3ddist.jfrog.io/artifactory/unity-mediation-generic-prod-local/UnityMediationAppLovinAdapter/0.0.13/UnityMediationAppLovinAdapter.xcframework.zip' }
     spec.vendored_frameworks  = "UnityMediationAppLovinAdapter.xcframework"
     spec.dependency "UnityMediationSdk", "~> 0.0.13"
     spec.dependency "AppLovinSDK", "~> 6.15.1"
@@ -26,4 +26,3 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
       "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64"
     }
   end
-  
