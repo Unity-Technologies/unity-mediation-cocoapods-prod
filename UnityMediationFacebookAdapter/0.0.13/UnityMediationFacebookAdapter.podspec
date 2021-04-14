@@ -1,6 +1,6 @@
-Pod::Spec.new do |spec|  
+  Pod::Spec.new do |spec|  
     spec.name         = "UnityMediationFacebookAdapter"
-    spec.version      = "0.0.13"
+    spec.version      = '0.0.13'
     spec.summary      = "UnityMediationFacebookAdapter for UnityMediationSdk"
     spec.description  = "UnityMediationFacebookAdapter Framework for loading and showing ads in the UnityMediationSdk"
     spec.homepage     = "https://github.com/Unity-Technologies/mz-mediation-sdk-ios"
@@ -15,7 +15,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     }
     spec.author             = { "Shawn Hampton" => "shawnh@unity3d.com" }
     spec.platform     = :ios, "9.0"
-    spec.source               = { :http => "https://unity3ddist.jfrog.io/artifactory/mz-open-mediation-sdk/UnityMediationFacebookAdapter/#{spec.version}/UnityMediationFacebookAdapter.xcframework.zip" }
+    spec.source               = { :http => 'https://unity3ddist.jfrog.io/artifactory/unity-mediation-generic-prod-local/UnityMediationFacebookAdapter/0.0.13/UnityMediationFacebookAdapter.xcframework.zip' }
     spec.vendored_frameworks  = "UnityMediationFacebookAdapter.xcframework"
     spec.dependency "UnityMediationSdk", "~> 0.0.13"
     spec.dependency "FBAudienceNetwork", "~> 6.3.1"
@@ -26,4 +26,3 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
       "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64"
     }
   end
-  
