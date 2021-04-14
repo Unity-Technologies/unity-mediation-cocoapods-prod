@@ -1,6 +1,6 @@
-Pod::Spec.new do |spec|  
+  Pod::Spec.new do |spec|  
     spec.name         = "UnityMediationVungleAdapter"
-    spec.version      = "0.0.13"
+    spec.version      = '0.0.13'
     spec.summary      = "UnityMediationVungleAdapter for UnityMediationSdk"
     spec.description  = "UnityMediationVungleAdapter Framework for loading and showing ads in the UnityMediationSdk."
     spec.homepage     = "https://github.com/Unity-Technologies/mz-mediation-sdk-ios"
@@ -15,7 +15,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     }
     spec.author             = { "Shawn Hampton" => "shawnh@unity3d.com" }
     spec.platform     = :ios, "9.0"
-    spec.source               = { :http => "https://unity3ddist.jfrog.io/artifactory/mz-open-mediation-sdk/UnityMediationVungleAdapter/0.0.13/UnityMediationVungleAdapter.xcframework.zip" }
+    spec.source               = { :http => "https://unity3ddist.jfrog.io/artifactory/unity-mediation-generic-prod-local/UnityMediationVungleAdapter/0.0.13/UnityMediationVungleAdapter.xcframework.zip" }
     spec.vendored_frameworks  = "UnityMediationVungleAdapter.xcframework"
     spec.dependency "UnityMediationSdk", "~> 0.0.13"
     spec.dependency "VungleSDK-iOS", "~> 6.9.1"
@@ -28,4 +28,3 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
       "EXCLUDED_ARCHS[sdk=iphoneos*]" => "i386 x86_64"
     }
   end
-  
