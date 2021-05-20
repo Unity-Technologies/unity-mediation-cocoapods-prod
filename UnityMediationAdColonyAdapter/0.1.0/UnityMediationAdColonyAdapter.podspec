@@ -20,7 +20,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     spec.source               = { :http => 'https://unity3ddist.jfrog.io/artifactory/unity-mediation-generic-prod-local/UnityMediationAdColonyAdapter/0.1.0/UnityMediationAdColonyAdapter.xcframework.zip' }
     spec.vendored_frameworks  = "UnityMediationAdColonyAdapter.xcframework"
     spec.dependency "UnityMediationSdk", "~> 0.1.0"
-    spec.dependency "AdColony", "~> 4.5.0"
+    spec.dependency "AdColony", "~> 4.6"
     spec.pod_target_xcconfig = {
       "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64 arm64e armv7 armv7s",
       "EXCLUDED_ARCHS[sdk=iphoneos*]" => "i386 x86_64"
