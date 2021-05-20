@@ -18,7 +18,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     spec.source               = { :http => 'https://unity3ddist.jfrog.io/artifactory/unity-mediation-generic-prod-local/UnityMediationAppLovinAdapter/0.1.0/UnityMediationAppLovinAdapter.xcframework.zip' }
     spec.vendored_frameworks  = "UnityMediationAppLovinAdapter.xcframework"
     spec.dependency "UnityMediationSdk", "~> 0.1.0"
-    spec.dependency "AppLovinSDK", "~> 6.15.1"
+    spec.dependency "AppLovinSDK", "~> 10.2"
     spec.xcconfig = {
       "OTHER_LDFLAGS" => "-ObjC",
       "VALID_ARCHS" => "arm64 arm64e armv7 armv7s x86_64",
