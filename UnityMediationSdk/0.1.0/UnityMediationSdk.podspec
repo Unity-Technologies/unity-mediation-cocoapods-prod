@@ -18,6 +18,6 @@
     spec.source               = { :http => "https://unity3ddist.jfrog.io/artifactory/unity-mediation-generic-prod-local/UnityMediationSdk/0.1.0/UnityMediationSdk.xcframework.zip" }
     spec.vendored_frameworks  = "UnityMediationSdk.xcframework"
     spec.static_framework = true
-    spec.frameworks = "SystemConfiguration", "AppTrackingTransparency", "AdSupport"
+    spec.frameworks = "SystemConfiguration", "AppTrackingTransparency", "AdSupport", "WebKit"
     spec.dependency "Protobuf", "~> 3.12.0"
   end
