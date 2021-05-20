@@ -18,7 +18,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     spec.source               = { :http => "https://unity3ddist.jfrog.io/artifactory/unity-mediation-generic-prod-local/UnityMediationVungleAdapter/0.1.0/UnityMediationVungleAdapter.xcframework.zip" }
     spec.vendored_frameworks  = "UnityMediationVungleAdapter.xcframework"
     spec.dependency "UnityMediationSdk", "~> 0.1.0"
-    spec.dependency "VungleSDK-iOS", "~> 6.9.1"
+    spec.dependency "VungleSDK-iOS", "~> 6.9"
     spec.pod_target_xcconfig = {
       "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64 arm64e armv7 armv7s",
       "EXCLUDED_ARCHS[sdk=iphoneos*]" => "i386 x86_64"
