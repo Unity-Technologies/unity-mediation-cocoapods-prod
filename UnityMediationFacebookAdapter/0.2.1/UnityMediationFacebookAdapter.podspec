@@ -19,6 +19,7 @@ Your use of Unity Monetization constitutes your acceptance of such terms. Unless
     spec.vendored_frameworks  = "UnityMediationFacebookAdapter.xcframework"
     spec.dependency "UnityMediationSdk", "~> 0.2.1"
     spec.dependency "FBAudienceNetwork", "~> 6.3"
+    spec.dependency "FBSDKCoreKit_Basics", "~> 11.0"
     spec.pod_target_xcconfig = {
       "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64"
     }
